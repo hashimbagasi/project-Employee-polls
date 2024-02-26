@@ -40,12 +40,12 @@ describe("Login", () => {
     expect(usernameInputElement.value).toBe("");
     expect(passwordInputElement.value).toBe("");
 
-    fireEvent.change(usernameInputElement, { target: { value: "br19" } });
+    fireEvent.change(usernameInputElement, { target: { value: "bh" } });
     fireEvent.change(passwordInputElement, {
       target: { value: "password123" },
     });
 
-    expect(usernameInputElement.value).toBe("br19");
+    expect(usernameInputElement.value).toBe("bh");
     expect(passwordInputElement.value).toBe("password123");
 
     fireEvent.click(loginButtonElement);

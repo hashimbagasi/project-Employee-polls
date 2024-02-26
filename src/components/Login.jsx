@@ -1,5 +1,4 @@
-/* eslint-disable react-hooks/rules-of-hooks */
-/* eslint-disable react/prop-types */
+
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useRef } from "react";
@@ -28,7 +27,6 @@ function Login(props) {
           navigate(localStorage.getItem("prevPath"));
           localStorage.removeItem("prevPath");
         } else {
-          // Use history.push for React Router navigation
           navigate("/");
         }
       } else {
@@ -38,7 +36,6 @@ function Login(props) {
       alert("Incorrect password or username");
     }
 
-    // Clear input fields
     usernameRef.current.value = "";
     passwordRef.current.value = "";
   };

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { useEffect } from "react";
 import { connect } from "react-redux";
 import { handleInitialData } from "../actions/shared";

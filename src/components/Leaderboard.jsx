@@ -1,5 +1,3 @@
-/* eslint-disable react/prop-types */
-// Leaderboard.js
 
 import Container from "react-bootstrap/Container";
 import Table from "react-bootstrap/Table";

@@ -1,8 +1,8 @@
 let users = {
-  br19: {
-    id: "br19",
+  hb: {
+    id: "hashim",
     password: "111",
-    name: "Ibrahim Alkhowaiter",
+    name: "hashim bagasi",
     avatarURL: "../../public/avatar/avatar.png",
     answers: {
       "8xf0y6ziyjabvozdd253nd": "optionOne",
@@ -50,10 +50,10 @@ let users = {
 let questions = {
   "8xf0y6ziyjabvozdd253nd": {
     id: "8xf0y6ziyjabvozdd253nd",
-    author: "br19",
+    author: "hb",
     timestamp: 1467166872634,
     optionOne: {
-      votes: ["br19"],
+      votes: ["hb"],
       text: "Build our new application with Javascript",
     },
     optionTwo: {
@@ -76,14 +76,14 @@ let questions = {
   },
   am8ehyc8byjqgar0jgpub9: {
     id: "am8ehyc8byjqgar0jgpub9",
-    author: "br19",
+    author: "hb",
     timestamp: 1488579767190,
     optionOne: {
       votes: [],
       text: "conduct a release retrospective 1 week after a release",
     },
     optionTwo: {
-      votes: ["br19"],
+      votes: ["hb"],
       text: "conduct release retrospectives quarterly",
     },
   },
@@ -96,7 +96,7 @@ let questions = {
       text: "have code reviews conducted by peers",
     },
     optionTwo: {
-      votes: ["br19"],
+      votes: ["hb"],
       text: "have code reviews conducted by managers",
     },
   },

@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { connect } from "react-redux";
 import Question from "./Question.jsx";
 import Row from "react-bootstrap/Row";

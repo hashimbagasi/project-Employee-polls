@@ -22,7 +22,7 @@ describe("Nav", () => {
   });
 
   it("should display username of logged in user", () => {
-    store.dispatch(setAuthedUser("br19"));
+    store.dispatch(setAuthedUser("hb"));
 
     const component = render(
       <Provider store={store}>
@@ -33,6 +33,6 @@ describe("Nav", () => {
     );
 
     const usernameElement = component.getByTestId("username-nav");
-    expect(usernameElement.textContent).toBe("@br19");
+    expect(usernameElement.textContent).toBe("@hb");
   });
 });
